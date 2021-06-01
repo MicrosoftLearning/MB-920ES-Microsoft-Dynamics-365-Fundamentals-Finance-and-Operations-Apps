@@ -52,7 +52,7 @@ Desde esta vista, podemos ver dónde se configuró el precio de venta de 350 dó
 
     ![Una captura de pantalla de la página Diario de factura con la columna Id. de transacción resaltada.](./media/projops_prices_4_select_a_transaction_id.png)
 
-1. En la página **Transacciones por horas**, seleccione la pestaña ** Información general**. En la columna **Precio de coste** de la tabla que aparece, apunte a **200**.  
+1. En la página **Transacciones por horas**, seleccione la pestaña **Información general**. En la columna **Precio de coste** de la tabla que aparece, apunte a **200**.  
     Desde la vista de transacciones por hora, podremos ver la entrada para Aaron Con y el precio de coste asociado de 200 $. Volvamos y revisemos la configuración del precio de coste para ver cómo ha derivado la tasa de coste.
 
 1. Vaya al área de trabajo **Administración de proyectos**.

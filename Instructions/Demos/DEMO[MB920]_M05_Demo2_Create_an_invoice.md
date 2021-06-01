@@ -106,7 +106,7 @@ Después, vamos a comprobar el botón de totales para ver el aspecto que tendrá
 Puede crear un informe de cualquier intervalo de fechas que desee.
 
 1. Seleccione el cuadro de fecha **Desde** y escriba **01/02/2021**.
-1. 
+ 
 1. Seleccione el cuadro de fecha **Hasta** y escriba la fecha de hoy.
 
 1. Cuando termine, seleccione **Calcular**.

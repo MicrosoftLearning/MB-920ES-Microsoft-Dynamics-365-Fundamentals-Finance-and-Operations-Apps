@@ -155,7 +155,7 @@ En este laboratorio, explorará los fundamentos de la configuración de sedes en
 
 1. En el panel de acciones, seleccione **Ejecutar ahora**.
 
-1. En el panel **Sincronización incremental con programación “1040”**, revise la información y seleccione **Aceptar**.
+1. En el panel **Sincronización incremental con programación ‘1040’**, revise la información y seleccione **Aceptar**.
 
 ### Crear un nuevo descuento de producto
 
@@ -201,4 +201,4 @@ En este laboratorio, explorará los fundamentos de la configuración de sedes en
 
 1. En el panel de acciones, seleccione **Ejecutar ahora**.
 
-1. En el panel **Sincronización incremental con programación “1020”**, revise la información y seleccione **Aceptar**.
+1. En el panel **Sincronización incremental con programación ‘1020’**, revise la información y seleccione **Aceptar**.

@@ -248,7 +248,7 @@ En este laboratorio, explorará las funcionalidades principales de Microsoft Dyn
 
 ### Liquidar la factura del proveedor
 
-1. En el panel de navegación, seleccione **Módulos** > ** Cuentas por pagar** > **Pagos** > **Diario de pagos a proveedores**.
+1. En el panel de navegación, seleccione **Módulos** > **Cuentas por pagar** > **Pagos** > **Diario de pagos a proveedores**.
 
 1. En el panel de acciones, seleccione **+Nuevo**.
 
@@ -287,7 +287,7 @@ En este laboratorio, explorará las funcionalidades principales de Microsoft Dyn
 
 ### Crear un cliente
 
-1. En el panel de navegación, seleccione **Módulos** > **Cuentas por cobrar****Clientes** > **Todos los clientes**.
+1. En el panel de navegación, seleccione **Módulos** > **Cuentas por cobrar** > **Clientes** > **Todos los clientes**.
 
 1. En el panel de acciones, seleccione **+Nuevo** para crear un cliente.
 

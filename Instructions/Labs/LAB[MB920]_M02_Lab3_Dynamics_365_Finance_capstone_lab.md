@@ -216,7 +216,7 @@ En este laboratorio, explorará las funcionalidades principales de Microsoft Dyn
     | Número de artículo| S0001|
     | Cantidad| 2|
 
-    >[!NOTE] Es posible que deba desplazarse hacia la derecha para ver la columna **Cantidad**.
+    >[!NOTA] Es posible que deba desplazarse hacia la derecha para ver la columna **Cantidad**.
 
 1. En el panel de acciones, seleccione **Guardar**.
 
@@ -359,7 +359,7 @@ En este laboratorio, explorará las funcionalidades principales de Microsoft Dyn
 
 ### Aplicar pagos de clientes para facturas de servicios
 
-1. En el panel de navegación, seleccione **Módulos** > ** Cuentas por cobrar** > **Pagos** > **Diario de pagos de cliente**.
+1. En el panel de navegación, seleccione **Módulos** > **Cuentas por cobrar** > **Pagos** > **Diario de pagos de cliente**.
 
 1. En el panel de acciones, seleccione **+Nuevo**.
 

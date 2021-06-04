@@ -32,7 +32,7 @@ La tienda de Boston de su empresa está lista para impulsar las ventas de alguno
 
 1. Seleccione el menú **Modo de simultaneidad de descuentos**, revise las opciones disponibles y luego elija **Mejor precio**.
 
-    >[!NOTE] Al elegir entre las opciones del modo de simultaneidad, tenga en cuenta lo siguiente:
+    >[!NOTA] Al elegir entre las opciones del modo de simultaneidad, tenga en cuenta lo siguiente:
     >
     >  - Cuando se aplican varios descuentos simultáneos, siempre se calculará primero el descuento mayor.  El siguiente descuento más alto se calcula entonces sobre el importe pendiente.  Esta jerarquía de cálculo continuará hasta que se hayan aplicado todos los descuentos simultáneos aplicables.  
     >    **Correcto**: 40 % de descuento + 20 % de descuento = 52 % de descuento  

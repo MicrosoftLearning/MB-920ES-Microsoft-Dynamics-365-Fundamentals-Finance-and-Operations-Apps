@@ -45,7 +45,7 @@ Al iniciar sesión por primera vez en Finance and Operations están disponibles 
 
 1. Seleccione su icono **Mi área de trabajo** y muévalo a otra ubicación en la página de inicio.
 
-    >[!Note] Si no puede mover el icono, recargue la página y vuelva a probar los pasos anteriores para mover el icono.
+    >[!Nota] Si no puede mover el icono, recargue la página y vuelva a probar los pasos anteriores para mover el icono.
 
 1. Cierre la barra de herramientas.
 

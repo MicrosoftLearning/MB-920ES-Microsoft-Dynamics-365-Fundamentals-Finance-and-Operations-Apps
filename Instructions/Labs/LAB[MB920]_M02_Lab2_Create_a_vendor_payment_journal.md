@@ -47,7 +47,7 @@ Crear una nueva entrada en el diario de pagos a proveedores y propuesta de pago.
 
 1. En **Fecha desde** y **Fecha hasta**, elimine cualquier valor existente. Para este ejercicio, estos rangos de fechas se dejarán en blanco.
 
-    >[!NOTE] Puede utilizarse una fecha de pago mínima como fecha de pago. La fecha de pago mínima será la fecha más temprana utilizada al crear los pagos. Por ejemplo, si una factura tiene una fecha de vencimiento posterior a la fecha de pago mínima, la fecha de vencimiento pasará a ser la fecha de pago, en lugar de la fecha de pago mínima, con la que se pagaría la factura en la última fecha posible.
+    >[!NOTA] Puede utilizarse una fecha de pago mínima como fecha de pago. La fecha de pago mínima será la fecha más temprana utilizada al crear los pagos. Por ejemplo, si una factura tiene una fecha de vencimiento posterior a la fecha de pago mínima, la fecha de vencimiento pasará a ser la fecha de pago, en lugar de la fecha de pago mínima, con la que se pagaría la factura en la última fecha posible.
 
 1. Expanda **Registros que incluir** y revise las opciones.  
     El filtro se usa a menudo para restringir las facturas seleccionadas para el pago por grupo de proveedores o método de pago. Por ejemplo, puede agregar un filtro para pagar las facturas solo mediante cheque en esta ejecución de pagos.

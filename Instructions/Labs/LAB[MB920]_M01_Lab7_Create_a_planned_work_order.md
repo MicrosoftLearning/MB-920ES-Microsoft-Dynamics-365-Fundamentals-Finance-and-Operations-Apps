@@ -1,49 +1,96 @@
----
+﻿---
 lab:
-    title: 'Laboratorio 7: Crear un pedido de trabajo planificado'
+    title: 'Laboratorio 7: Crear una orden de trabajo de mantenimiento'
     module: 'Módulo 1: Aprender los fundamentos de Microsoft Dynamics 365 Supply Chain Management'
 ---
 
-## Laboratorio 7: Crear un pedido de trabajo planificado
+## Laboratorio 7: Crear una orden de trabajo de mantenimiento
 
-## Objetivos
+**Objetivos**
 
-Pedidos de mantenimiento introducidos en el sistema que describen el mantenimiento o la reparación que debe realizarse en el activo y asignan los recursos apropiados para completar la solicitud de mantenimiento. Su empresa tiene un contrato de servicio en curso y necesita asegurarse de que se crean pedidos de servicio planificados para respaldar el servicio previsto de los artículos del contrato.
+Las órdenes de mantenimiento realizadas en el sistema describen el mantenimiento o la reparación necesarios para un activo. Además, se utilizan para asignar los recursos adecuados para completar la solicitud de mantenimiento. La orden de trabajo se crea según la orden de mantenimiento, que la ejecutará el recurso asignado.
 
-## Configuración del laboratorio
+**Configuración del laboratorio**
 
-   - **Tiempo estimado**: 10 minutos
+Tiempo estimado: 15 min.
 
-## Instrucciones
+**Instrucciones**
 
 1. En la página de inicio de Finance and Operations, en la parte superior derecha, compruebe que esté trabajando con la empresa USMF.
 
-1. Si es necesario, seleccione la empresa y, en el menú, seleccione **USMF.**
+2. Si es necesario, seleccione la empresa y, en el menú, seleccione **USMF**.
 
-1. En el panel de navegación izquierdo, seleccione **Módulos** > **Administración de servicio** > **Acuerdos de servicio** > **Acuerdos de servicio**.
+3. En el panel de navegación izquierdo, seleccione **Módulos** **&gt; Administración de activos &gt; Configuración &gt; Solicitud de mantenimiento &gt; Estados de ciclo de vida.**
 
-1. Seleccione el cuadro de la primera columna del primer acuerdo de servicio.
+4. Seleccione En progreso y haga clic en el botón **Editar** del panel de acciones.
 
-    ![Imagen de pantalla del acuerdo de servicio seleccionado](./media/lp1-m5-select-service-agreement.png)
+5. En la pestaña **General**, cambie el valor de **Crear orden de trabajo** a Sí.
 
-1. Seleccione el cuadro **Fecha final**, elimine el valor actual y luego, en el menú superior, elija **Guardar**.  
- La fecha final se quita para poder crear un nuevo pedido de servicio para este acuerdo.
+6. En el panel de navegación izquierdo, seleccione **Módulos** **&gt; Administración de activos &gt; Espacios de trabajo &gt; Administración de la solicitud de mantenimiento.**
 
-    ![Imagen de pantalla que muestra la celda de fecha final vacía y la opción Guardar resaltada](./media/lp1-m5-update-date-save-service-agreement.png)
+7. Haga clic en **Crear solicitud de mantenimiento.**
 
-1. En el menú superior, seleccione **Entregar**.
+8. Escriba los siguientes valores en los campos del cuadro de diálogo y haga clic en el botón **Aceptar**.
 
-1. En la barra de la cinta, en **Crear**, seleccione **Pedidos de servicio planificados**.
+	- Tipo de solicitud de mantenimiento: Correctiva
 
-1. En el panel Crear pedidos de servicio, en **PERÍODO**, seleccione **Fecha desde** con el valor de la fecha actual y la **Fecha hasta** a dos días de la fecha actual.
+	- Descripción: Ruido en el detector de metales
 
-1. En **REGISTRO DE INFORMACIÓN**, seleccione el conmutador de alternancia **Mostrar registro de información** y establézcalo en **Sí**.  
-Esto mostrará una lista de los pedidos de servicio que se crean en el contrato.
+	- Ubicación técnica: PP-02-02
 
-1. En **INCLUIR TIPOS DE TRANSACCIÓN**, seleccione el conmutador de alternancia **Horas** y establézcalo en **Sí**.  
-Los tipos de transacción representan las líneas que se crean en el acuerdo de servicio, y cada tipo de transacción que se selecciona genera varios pedidos de servicio, según el intervalo de servicio que se especifique en la línea del acuerdo de servicio.
+	- Activo: MD-201
 
-1. En **OPCIÓN**, seleccione el conmutador de alternancia **Continuo** y establézcalo en **Sí**.  
-Se utiliza para crear los pedidos de servicio que faltan en una serie continua de pedidos de servicio.
+	- Nivel de servicio: 4
 
-1. Seleccione **Aceptar**.
+	- Síntoma del error: Ruido excesivo
+
+	- Área defecto: Electricidad 
+
+9. Cierre el formulario de **Solicitud de mantenimiento** y vuelva al área de trabajo **Administración de solicitudes de mantenimiento**.
+
+10. Actualice la página mediante el icono **Actualizar** situado en la esquina superior derecha de la pantalla.
+
+![Captura de pantalla del icono Actualizar](./media/lab-create-a-maintenance-request-01.png)
+
+11. La nueva solicitud de mantenimiento aparecerá en la lista de solicitudes de mantenimiento sin orden de trabajo.
+
+12. Seleccione la nueva solicitud de mantenimiento y haga clic en el botón **Actualizar estado de la solicitud de mantenimiento**. 
+
+13. En el cuadro de diálogo, seleccione la casilla de verificación junto a En progreso y haga clic en **Aceptar**
+
+![Captura de pantalla del elemento de línea que se debe seleccionar](./media/lab-create-a-maintenance-request-02.png) 
+
+
+14. Seleccione la nueva solicitud de mantenimiento y haga clic en el botón **Crear orden de trabajo**. 
+
+15. Escriba los siguientes valores en los campos del cuadro de diálogo y haga clic en el botón **Aceptar**.
+
+	- Tipo de trabajo de mantenimiento: Inspección
+
+16. Se creará una nueva orden de trabajo, y se actualizará en el registro de solicitud de mantenimiento seleccionado.
+
+17. Haga clic en la orden de trabajo y vaya a la pantalla **Detalles de la orden de trabajo**.
+
+18. En la orden de trabajo Lines, haga clic en el botón **Enviar**.
+
+19. Escriba los siguientes valores en los campos del cuadro de diálogo y haga clic en el botón **Aceptar**.
+
+	- Trabajador: Ted Howard
+
+20. En el menú Acción, vaya a **Orden de trabajo &gt; Estado de ciclo de vida &gt; Actualizar estado de la orden de trabajo**.
+
+21. En el cuadro de diálogo, seleccione la casilla de verificación junto a En progreso y haga clic en **Aceptar**
+
+![Captura de pantalla del elemento de línea que se debe seleccionar](./media/lab-create-a-maintenance-request-03.png)
+
+22. Seleccione la fecha y hora de **comienzo real** en el cuadro de diálogo y haga clic en **Aceptar**.
+
+23. En el menú de acciones de la orden de trabajo, vaya de nuevo a **Orden de trabajo &gt; Estado de ciclo de vida &gt; Actualizar estado de la orden de trabajo**.
+
+24. En el cuadro de diálogo, seleccione la casilla de verificación junto a Completada y haga clic en **Aceptar**
+
+![Captura de pantalla del elemento de línea que se debe seleccionar](./media/lab-create-a-maintenance-request-04.png)
+
+25. En el campo **finalización real** seleccione una fecha y hora posterior a la fecha y hora de comienzo y haga clic en Aceptar.
+
+26. El estado actual de ciclo de vida de la orden de trabajo aparecerá con el valor Completada en el encabezado de la orden de trabajo.

@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Laboratorio 3: Crear una oferta de productos con varios tamaños y colores'
     module: 'Módulo 1: Aprender los fundamentos de Microsoft Dynamics 365 Supply Chain Management'
@@ -6,7 +6,7 @@ lab:
 
 # Módulo 1: Obtener información sobre los fundamentos de Microsoft Dynamics 365 Supply Chain Management
 
-## Laboratorio 3: Crear una oferta de productos con varios tamaños y colores
+## Laboratorio 3: Crear un producto nuevo
 
 ## Objetivos
 

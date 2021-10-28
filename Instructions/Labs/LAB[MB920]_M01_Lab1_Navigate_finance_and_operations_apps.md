@@ -109,11 +109,11 @@ Puede encontrar sus credenciales en el menú **Recursos**, en la esquina superio
 
 1. Resalte uno de los proveedores de la lista y, a la derecha, seleccione el menú **Información relacionada** y revise la información adicional que se da.
 
-1. En la lista de proveedores, seleccione **Northwind Traders**.
+1. En la lista de proveedores, seleccione **Acme Office Supplies**.
 
 1. Seleccione el menú **Grupo** y luego seleccione el título de columna **Grupo de proveedores**.
 
-    ![Una captura de pantalla del título de la columna Grupo de proveedores de Northwind Traders.](./media/m1-common-all-vendor-group-menu.png)
+    ![Una captura de pantalla del título de la columna Grupo de proveedores para Acme Office Supplies.](./media/m1-common-vendor-group-menu-24493345.png)
 
 1. Muchos menús ofrecen la posibilidad de clasificación y filtrado. Utilice los filtros para localizar rápidamente el contenido del campo que está buscando.
 

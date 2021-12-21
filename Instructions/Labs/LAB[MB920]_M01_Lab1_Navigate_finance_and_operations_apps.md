@@ -79,7 +79,7 @@ Puede encontrar sus credenciales en el menú **Recursos**, en la esquina superio
 
 1. En **Configuración**, seleccione **Opciones de rendimiento del cliente**.
 
-1. En el panel de opciones de rendimiento del cliente, en **Llamadas de características habilitadas**, seleccione el conmutador de alternancia y establézcalo en **Sí**.
+1. En el panel de opciones de desempeño del cliente, en **Llamadas de características habilitadas**, seleccione el conmutador de alternancia y asegúrese de que está establecido en **Sí**.
 
 1. Revise las otras opciones disponibles, desplácese hasta la parte inferior del panel y luego seleccione **Aceptar**.
 
